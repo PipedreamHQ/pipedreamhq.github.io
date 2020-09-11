@@ -1,4 +1,6 @@
-## Pipedream Event Sources
+## Popular Real Time Event Sources
+
+Pipedream is a serverless integration and compute platform. 
 
 Pipedream receives data via event sources. Event sources are open source, run on Pipedream's infrastructure and collect data from your own application and/or services like Github, DropBox, Zoom, RSS feeds, and more.
 
@@ -21,7 +23,7 @@ module.exports = {
 
 <a href="http://tod.ly/2UNkcs3"><img src="https://i.ibb.co/m0bBsSL/deploy-clean.png" height="35"></a>
 
-Popular Event Sources:
+Popular Real Time Event Sources:
 - [airtable](https://github.com/PipedreamHQ/pipedream/blob/master/components/airtable)
 - [aws](https://github.com/PipedreamHQ/pipedream/blob/master/components/aws)
 - [dev](https://github.com/PipedreamHQ/pipedream/blob/master/components/dev)
