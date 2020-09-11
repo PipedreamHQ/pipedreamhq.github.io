@@ -1,5 +1,29 @@
-[airtable](https://github.com/PipedreamHQ/pipedream/blob/master/components/airtable)
+## Event Sources
 
+Pipedream receives data via event sources. Event sources are open source, run on Pipedream's infrastructure and collect data from your own application and/or services like Github, DropBox, Zoom, RSS feeds, and more.
+
+Event sources emit new events produced by the service, which can trigger Pipedream workflows, or which you can consume using [Pipedream's REST API](https://docs.pipedream.com/api/rest/) or a private, real-time [SSE stream](https://docs.pipedream.com/api/sse/).
+
+Here is the simplest event source possible, an HTTP event source:
+
+```javascript
+module.exports = {
+  name: "http",
+  version: "0.0.1",
+  props: {
+    http: "$.interface.http",
+  },
+  run(event) {
+    console.log(event); // event contains the method, payload, etc.
+  },
+};
+```
+
+<a href="http://tod.ly/2UNkcs3"><img src="https://i.ibb.co/m0bBsSL/deploy-clean.png" height="35"></a>
+
+Popular Event Sources:
+
+[airtable](https://github.com/PipedreamHQ/pipedream/blob/master/components/airtable)
 [aws](https://github.com/PipedreamHQ/pipedream/blob/master/components/aws)
 
 [dev](https://github.com/PipedreamHQ/pipedream/blob/master/components/dev)
