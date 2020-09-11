@@ -23,7 +23,7 @@ module.exports = {
 
 <a href="http://tod.ly/2UNkcs3"><img src="https://i.ibb.co/m0bBsSL/deploy-clean.png" height="35"></a>
 
-Popular Real Time Event Sources:
+Directory of Real Time Event Sources:
 - [airtable](https://github.com/PipedreamHQ/pipedream/blob/master/components/airtable)
 - [aws](https://github.com/PipedreamHQ/pipedream/blob/master/components/aws)
 - [dev](https://github.com/PipedreamHQ/pipedream/blob/master/components/dev)
@@ -52,3 +52,15 @@ Popular Real Time Event Sources:
 - [youtube](https://github.com/PipedreamHQ/pipedream/blob/master/components/youtube)
 - [zoom-admin](https://github.com/PipedreamHQ/pipedream/blob/master/components/zoom-admin)
 - [zoom](https://github.com/PipedreamHQ/pipedream/blob/master/components/zoom)
+
+## Contribute
+
+Do you want add a real time event source?  If so, check out the [Component API](https://github.com/PipedreamHQ/pipedream/blob/master/COMPONENT-API.md) and [Quickstart](https://github.com/PipedreamHQ/pipedream/blob/master/QUICKSTART.md).
+
+You can get help [on our public Slack](https://pipedream.com/community) or [reach out to our team directly](https://docs.pipedream.com/support/) with any questions or feedback. We'd love to hear from you!
+
+## Found a Bug? Have a Feature to suggest?
+
+Before adding an issue, please search the [existing issues](https://github.com/PipedreamHQ/pipedream/issues) or [reach out to our team](https://docs.pipedream.com/support/) to see if a similar request already exists.
+
+If an issue exists, please [add a reaction](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-conversations-on-github) or comment on your specific use case.
