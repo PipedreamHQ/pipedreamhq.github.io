@@ -1,4 +1,4 @@
-## Popular Real Time Event Sources
+## Directory of Real Time Event Sources
 
 Pipedream is a serverless integration and compute platform. 
 
