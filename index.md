@@ -1,4 +1,4 @@
-## Event Sources
+## Pipedream Event Sources
 
 Pipedream receives data via event sources. Event sources are open source, run on Pipedream's infrastructure and collect data from your own application and/or services like Github, DropBox, Zoom, RSS feeds, and more.
 
