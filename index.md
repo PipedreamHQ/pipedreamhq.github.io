@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="9yOReT9FkSh9c7z87JuT8LzQ2lVMk15QdS2cMGqtQ1Q" />
-
 ## Directory of Real Time Event Sources
 
 Pipedream is a serverless integration and compute platform. 
